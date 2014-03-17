@@ -1,0 +1,83 @@
+body {
+      text-align: center;
+    	background: url("http://i.imgur.com/d9Nc1fT.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+h1 {
+    	font-family: 'Diplomata', cursive;
+    	font-weight: 900;
+      font-size: 75px;
+      color: #A1A1A1;
+      text-align: center;
+    }
+#about {
+      font-family: 'Montez', cursive;
+      font-size: 35px;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align:center;
+      display: none;
+      color: white;
+    }
+#contact { font-family: 'Montez', cursive;
+      font-size: 35px;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align:center;
+      display: none;
+      color: white;
+    }
+#picture1 {
+      margin: 0px 0px 70px 0px;
+      position:fixed;
+      max-width: 100px;
+      max-height: 100px;
+      bottom: 0;
+      left: 0;
+      color: white;
+      font-weight: 900;
+    }
+#picture2 {
+      margin: 0px 60px 0px 0px;
+      max-width: 100px;
+      max-height: 100px;
+      position: fixed;
+      top: 0;
+      right: 0;
+      font-weight: 900;
+      color: white;
+    }
+#picture3 {
+      margin: 0px 0px 0px 0px;
+      max-width: 100px;
+      max-height: 100px;
+      position:fixed;
+      top: 0;
+      left: 0;
+      font-weight: 900;
+      color: white;
+    }
+#picture4 {
+      margin: 0px 70px 80px 10px;
+      max-width: 100px;
+      max-height: 100px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      font-weight: 900;
+      color: white;
+    }
+img {
+      border: 7px solid white;
+      border-radius: 20px;
+      max-width: 100px;
+      max-height: 100px;
+    }
+    #me {
+      font-family: 'Sofadi One', cursive;
+      font-size: 15px;
+    }
+      #info {
+      font-family: 'Sofadi One', cursive;
+      font-size: 15px;

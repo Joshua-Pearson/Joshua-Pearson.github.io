@@ -1,7 +1,59 @@
 <!DOCTYPE html>
-<html>
+<head>
+	<title> Joshua Pearson </title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href="style.css" rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Sofadi+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <h1> Josh's Page</h1>
+  <div id="picture1">
+    <figure>
+      <img src="http://i.imgur.com/bRHcbF5.jpg" width:"100px" height"100px">
+    <figcaption>Me!</figcaption>
+  </figure>
+</div>
+    <div id="picture2">
+      <figure>
+        <img src="http://i.imgur.com/VUcTw0m.jpg" width:"100px" height"100px">
+    <figcaption>Golden Gate bridge</figcaption>
+  </figure>
+</div>
+    <div id="picture3">
+      <figure>
+      <img src="http://i.imgur.com/muIZUxo.jpg" width:"100px" height"100px">
+      <figcaption>Me Skydiving</figcaption>
+    </figure>
+  </div>
+      <div id="picture4">
+        <figure>
+        <img src="http://i.imgur.com/j2PJ3Fg.jpg" width:"100px" height"100px">
+        <figcaption>In Belgium
+      </figcaption>
+      </figure>
+    </div>
+    <h2>If you want to know all about me, see below!</h2>
+
+  <button id="me">About Me</button>
+  <button id="info">Contact info</button>
+
+  <p id="about">My name is Joshua Pearson and I am an aspiring web developer. I live in one of the greatest cities in the world: San Franscisco. When I am not on my computer looking at code, I enjoy running, racquetball and playing chess.</p>
+    <p id="contact">Joshua Pearson<br>Email: J_D_Pearson@yahoo.com<br>cell: 415-377-8340</p>
+
+     <script>
+    $(function() {
+      $("#me").click(function() {
+        $("#about").toggle(1000);
+        });
+    $(function() {
+      $("#info").click(function() {
+        $("#contact").toggle(1000);
+      });
+    });
+  });
+      </script>
 </body>
-</html>
