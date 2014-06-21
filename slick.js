@@ -6,5 +6,15 @@ $(document).ready(
         draggable: false
       }
     );
+      $(function() {
+        $("#me").click(function() {
+          $("#about").toggle(1000);
+          });
+      $(function() {
+        $("#info").click(function() {
+          $("#contact").toggle(1000);
+        });
+      });
+    });
   }
 );
