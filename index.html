@@ -2,6 +2,7 @@
 <head>
 	<title> Joshua Pearson </title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/jquery_plugins/slick/slick.js"></script>
   <link href="style.css" rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
@@ -11,11 +12,45 @@
 </head>
 <body>
   <h1> Josh's Page</h1>
-  <img id="picture1" img src="http://i.imgur.com/bRHcbF5.jpg" width:"100px" height"100px">
-  <img id="picture2" img src="http://i.imgur.com/VUcTw0m.jpg" width:"100px" height"100px">
-  <img id="picture3" img src="http://i.imgur.com/muIZUxo.jpg" width:"100px" height"100px">
-  <img id="picture4" img src="http://i.imgur.com/j2PJ3Fg.jpg" width:"100px" height"100px">
-  <img id="picture5" img src="http://i.imgur.com/RXBruiY.jpg">
+  <div class="backdrop">
+    <div id="my_carousel" class="slick_carousel">
+        <div class="car_page">
+            <div style="text-align: center">
+                <img class="hero" src="http://i.imgur.com/bRHcbF5.jpg">
+            </div>
+            <div class="header">Rocks</div>
+            <div>Me Somewhere</div>
+        </div>
+        <div class="car_page">
+            <div style="text-align: center">
+                <img class="hero" src="http://i.imgur.com/VUcTw0m.jpg">
+            </div>
+            <div class="header">Iceberg</div>
+            <div>Me again</div>
+        </div>
+        <div class="car_page">
+            <div style="text-align: center">
+                <img class="hero" src="http://i.imgur.com/muIZUxo.jpg">
+            </div>
+            <div class="header">Me</div>
+            <div>hey me</div>
+        </div>
+        <div class="car_page">
+            <div style="text-align: center">
+                <img class="hero" src="http://i.imgur.com/j2PJ3Fg.jpg">
+            </div>
+            <div class="header">Me</div>
+            <div>hey me</div>
+        </div>
+        <div class="car_page">
+            <div style="text-align: center">
+                <img class="hero" src="http://i.imgur.com/RXBruiY.jpg">
+            </div>
+            <div class="header">Me</div>
+            <div>hey me</div>
+        </div>
+    </div>
+</div>
     <h2>If you want to know all about me, see below!</h2>
     <div id="upperleft">Me Skydiving</div>
     <div id="upperright">Golden Gate</div>
