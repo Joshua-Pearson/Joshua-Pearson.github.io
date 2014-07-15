@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <head>
-	<title> Joshua Pearson </title>
-  <link href="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.css" rel="stylesheet" type="text/css"/>
-  <link href="style.css" rel='stylesheet' type="text/css">
-  <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+  <title> Joshua Pearson </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="animate.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link href='http://fonts.googleapis.com/css?family=Poller+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Diplomata' rel='stylesheet' type='text/css'>
@@ -12,51 +11,50 @@
   <link href='http://fonts.googleapis.com/css?family=Revalia' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <h1> Josh's Page</h1>
-  <div class="backdrop">
-    <div id="my_carousel" class="slick_carousel">
-        <div class="car_page">
-            <div style="text-align: center">
-                <img class="hero" src="http://i.imgur.com/bRHcbF5.jpg">
-            </div>
-            <div class="header">Rocks</div>
-            <div>Me Somewhere</div>
+  <div class="navigation">
+    <div class="secondary-navigation">
+      <div class="container">
+        <div class="contact">
+          <figure><strong>Email:</strong><a href="mailto:coveredSF@gmail.com">joshua.david.pearson@gmail.com</a></figure>
         </div>
-        <div class="car_page">
-            <div style="text-align: center">
-                <img class="hero" src="http://i.imgur.com/VUcTw0m.jpg">
-            </div>
-            <div class="header">Iceberg</div>
-            <div>Me again</div>
-        </div>
-        <div class="car_page">
-            <div style="text-align: center">
-                <img class="hero" src="http://i.imgur.com/muIZUxo.jpg">
-            </div>
-            <div class="header">Me</div>
-            <div>hey me</div>
-        </div>
-        <div class="car_page">
-            <div style="text-align: center">
-                <img class="hero" src="http://i.imgur.com/j2PJ3Fg.jpg">
-            </div>
-            <div class="header">Me</div>
-            <div>hey me</div>
-        </div>
+      </div>
     </div>
-</div>
-    <h2>If you want to know all about me, see below!</h2>
+    <div class="container">
+      <header class="navbar" id="top" role="banner">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand nav" id="brand">
+            Joshua Pearson
+          </div>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="active has-child"><a href="">Contact</a>
+              <ul class="child-navigation">
+                <li><a href="mailto:joshua.david.pearson@gmail.com" target="_blank">My Email</a></li>
+                <li><a href="http://www.twitter.com/joshuapears0n" target="_blank">My Twitter</a></li>
+                <li><a href="mailto:j_d_pearson@yahoo.com" target="_blank">My Secondary Email</a></li>
+                <li><a href="http://joshua-pearson.github.io/" target="_blank">My Resume</a></li>
+              </ul>
+            </li>
+            <li><a href="http://www.linkedin.com/in/joshuapears0n" target="_blank">My LinkedIn</a></li>
+            <li><a href="http://joshua-pearson.blogspot.com/" target="_blank">My Blog</a></li>
+            <li><a href="https://github.com/Joshua-Pearson" target="_blank">My Github</a></li>
+          </ul>
+        </nav><!-- /.navbar collapse-->
+      </header><!-- /.navbar -->
+    </div><!-- /.container -->
+  </div>
+  <h1>Joshua Pearson</h1>
 
-  <button id="me">About Me</button>
-  <button id="info">Contact info</button>
-  <a id="github_link" href="https://github.com/Joshua-Pearson">My Github</a>
-  <a id="linkedin_link "href="http://www.linkedin.com/in/joshuapears0n">My Linked In</a>
-
-  <p id="about">My name is Joshua Pearson and I am an aspiring web developer. I live in one of the greatest cities in the world: San Franscisco. When I am not on my computer looking at code, I enjoy running, racquetball and playing chess.</p>
-  <p id="contact">Joshua Pearson<br>Email: J_D_Pearson@yahoo.com<br>cell: 415-377-8340</p>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.6/slick.min.js"/></script>
-  <script type="text/javascript" src="slick.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+    <a id="github_link" href="https://github.com/Joshua-Pearson">My Github</a>
+    <a id="linkedin_link "href="http://www.linkedin.com/in/joshuapears0n">My Linked In</a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
