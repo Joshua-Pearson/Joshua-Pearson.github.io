@@ -1,5 +1,4 @@
-$(document).ready(
-  function () {
+$(document).ready(function () {
     $('#my_carousel').slick(
       {
         speed: 500,
@@ -16,5 +15,4 @@ $(document).ready(
         });
       });
     });
-  }
-);
+  });
