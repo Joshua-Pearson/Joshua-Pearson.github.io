@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-  var s = skrollr.init();
-
   $("a").mouseover(function() {
     $(this).addClass("animated pulse");
   }).mouseout(function() {
@@ -14,19 +12,22 @@ $(document).ready(function() {
     $(this).removeClass("animated rubberBand");
   });
 
-  // $(window).scroll(function() {
-  //   $("#top nav .contacts_buttons").addClass("fa-spin");
-  //   setTimeout(function() {
-  //     $("#top nav .contacts_buttons").removeClass("fa-spin");
-  //   }, 2000);
-  // });
-
-  $(window).scroll(function() {
+  $("#contact").click(function() {
     $("#social-links a").addClass("fa-spin");
     setTimeout(function() {
       $("#social-links a").removeClass("fa-spin");
     }, 2000);
   });
 
+  $("#projects").click(function() {
+    $(".et-wrapper .et-page.et-page-current button").click();
+    if (document.getElementById("projects").text == "My Projects") {
+      $("#projects").html("About Me");
+    } else if (document.getElementById("projects").text == "About Me") {
+      $("#projects").html("Main Page");
+    } else {
+      $("#projects").html("My Projects");
+    }
+  });
 
 });

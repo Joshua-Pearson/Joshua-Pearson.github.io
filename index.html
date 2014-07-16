@@ -7,8 +7,10 @@
   <link rel="stylesheet" type="text/css" href="animate.css">
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="elementTransitions.css">
 </head>
 <body>
+  
   <div class="navigation">
     <div class="secondary-navigation">
       <div class="container">
@@ -20,156 +22,151 @@
     <div class="container">
       <header class="navbar" id="top" role="banner">
         <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
           <div class="navbar-name nav" id="name">
-            Joshua Pearson
+            <h4>Joshua Pearson</h4>
+            <h6>Full Stack Web Developer</h6>
           </div>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
           <ul class="nav navbar-nav">
-            <li class="contacts_buttons"><a href="">Contact</a>
-              <ul class="child-navigation">
-                <li><a href="mailto:joshua.david.pearson@gmail.com" target="_blank">My Email</a></li>
-                <li><a href="http://www.twitter.com/joshuapears0n" target="_blank">My Twitter</a></li>
-                <li><a href="http://joshua-pearson.github.io/" target="_blank">My Resume</a></li>
-              </ul>
-            </li>
-            <li class="contacts_buttons"><a href="http://www.linkedin.com/in/joshuapears0n" target="_blank">My LinkedIn</a></li>
-            <li class="contacts_buttons"><a href="http://joshua-pearson.blogspot.com/" target="_blank">My Blog</a></li>
-            <li class="contacts_buttons"><a href="https://github.com/Joshua-Pearson" target="_blank">My Github</a></li>
+            <li class="contacts_buttons"><a href="#footer" id="contact">Contact</a></li>
+            <li class="contacts_buttons"><a id="projects">My Projects</a></li>
           </ul>
         </nav><!-- /.navbar collapse-->
       </header><!-- /.navbar -->
     </div><!-- /.container -->
   </div>
-
-<!--   <div class="container">
-    <a name="myAnchor" id="myAnchor"></a>
-    <div id="h-17-pt-1" class="page-transitions pt-perspective">
-      <div class="pt-page pt-page-current">
-        <div class="row v-center">
-          <div class="span6 ani-processed">
-            <div class="span6">
-              <a href="http://www.covered-sf.com" target="_blank"><img src="" id="web" alt="Image"></a>
-            </div>
+  
+  <div class="et-wrapper">
+    
+    <div class="et-page">
+      <button class="et-rotate" et-in="rotateSlideIn" et-out="rotateSlideOut"></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="animated bounceInLeft" id="page1-name">Joshua Pearson</h1>
           </div>
-          <div class="span3 ani-processed">
-            <h6>Popspotz</h6>
-            A social app for locating Pop-up businesses
-            <br><a href="http://www.covered-sf.com" target="_blank"><i class='fa fa-github fa-3x'></i></a>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h2 class="animated bounceInLeft" id="page1-name">Full Stack Web Developer</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <!-- <img src="images/placeit.jpg" /> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h4 class="animated bounceInRight" id="page1-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h4 class="animated bounceInUp" id="page1-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
           </div>
         </div>
       </div>
-        <div class="pt-page">
-          <div class="row v-center">
-            <div class="span6 ani-processed">
-              <div class="span6">
-                <a href="http://www.covered-sf.com" target="_blank"><img src="" id="web" alt="Image"></a>
-              </div>
-            </div>
-            <div class="span3 ani-processed">
-              <h6>Chair</h6>
-              A community app to donate furniture
-              <br><a href="http://www.covered-sf.com" target="_blank"><i class='fa fa-github fa-3x'></i></a>
-            </div>
+    </div>   
+
+    <div class="et-page">
+      <div class="container">
+        <button id="page-2-button" class="et-rotate" et-in="rotateSlideIn" et-out="rotateSlideOut"></button>
+        <h2 class="page2" id="page2-header">Projects</h2>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h3 class="page2" id="page2-summary">Some Stuff here about projects</h3>
           </div>
         </div>
-        <div class="pt-page">
-          <div class="row v-center">
-            <div class="span6 ani-processed">
-              <div class="span6">
-                <a href="http://www.covered-sf.com" target="_blank"><img src="" id="web" alt="Image"></a>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-xs-6 col-md-6" id="covered-sf">
+            <h6 class="page2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+            <a href="https://github.com/Joshua-Pearson/DoctorSearch" target="_blank"><i class='fa fa-github fa-4x black-icon-color'></i></a>
+            <a href="http://www.covered-sf.com" target="_blank"><img src="images/covered-sf.png"/></a>
+          </div>
+          <div class="col-xs-6 col-md-6" id="flightshare">
+            <h6 class="page2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+            <a href="https://github.com/Joshua-Pearson/DoctorSearch" target="_blank"><i class='fa fa-github fa-4x black-icon-color'></i></a>
+            <a href="https://flightshare.herokuapp.com/" target="_blank"><img src="images/flightshare.png"/></a>
           </div>
         </div>
       </div>
-    </div> -->
-  <div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#first_info + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-    <div class="parallax-image parallax-image-100" style="background-image:url('http://i.imgur.com/d9Nc1fT.jpg')" data-anchor-target="#first_info + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);">
     </div>
-    <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+    
+
+
+    <div class="et-page">
+      <button class="et-rotate" et-in="rotateSlideIn" et-out="rotateSlideOut"></button>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="animated bounceInLeft" id="page1-name">Joshua Pearson</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="animated bounceInLeft" id="page1-name">Joshua Pearson</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="animated bounceInLeft" id="page1-name">Joshua Pearson</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h1 class="animated bounceInLeft" id="page1-name">Joshua Pearson</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h3 class="animated bounceInRight" id="page1-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-12">
+            <h3 class="animated bounceInUp" id="page1-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <div class="parallax-image-wrapper parallax-image-wrapper-100" data-anchor-target="#second_info + .gap" data-bottom-top="transform:translate3d(0px, 200%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-    <div class="parallax-image parallax-image-100" style="background-image:url('images/covered-sf.png')" data-anchor-target="#second_info + .gap" data-bottom-top="transform: translate3d(0px, -80%, 0px);" data-top-bottom="transform: translate3d(0px, 80%, 0px);">
-    </div>
-  </div>
-
-  <div class="parallax-image-wrapper parallax-image-wrapper-50" data-anchor-target="#third_info + .gap" data-bottom-top="transform:translate3d(0px, 300%, 0px)" data-top-bottom="transform:translate3d(0px, 0%, 0px)">
-    <div class="parallax-image parallax-image-50" style="background-image:url(images/flightshare.png)" data-anchor-target="#third_info + .gap" data-bottom-top="transform: translate3d(0px, -60%, 0px);" data-top-bottom="transform: translate3d(0px, 60%, 0px);">
-    </div>
-  </div>
-
-  <div id="skrollr-body">
-    <div class="header" id="first_info">
-    </div>
-    <div class="gap gap-100" style="background-image:url('http://i.imgur.com/d9Nc1fT.jpg');">
-      <h1 id="main_name" class="animated bounceInDown">Joshua Pearson<h1>
-    </div>
-    <div class="content" id="second_info">
-      <p>
-        I'm a full stack web developer with a passion for turning ideas into realities. I have a background in customer service and law for over 6 years which honed my problem-solving and critical thinking skills which I combine with my passion for programming and technology. I graduated from <a href="http://www.generalassemb.ly">General Assembly</a> in July of 2014 after receiving over 400+ hours of instruction and devoting more than 600+ hours coding.
-      </p>
-
-      <p>
-        During my time at GA I developed a proficiency in multiple languages, frameworks and libraries including javascript, angular, jQuery, node.js, coffeescript, ruby, rails and sinatra.
-      </p>
-      <p>
-        Below are just a few of the projects I completed during my time at General Assembly. My <a href="anchor-something">final project</a>, <a href="http://www.covered-sf.com">www.covered-sf.com</a> consisted of me building an open source API and using it to search for doctors near San Francisco, CA by health insurances that accept Covered California. 
-      </p>
-    </div>
-    <div class="gap gap-100">
-    </div>
-    <div class="content content-full" id="third_info">
-      <p>
-        blah
-      </p>
-      blah
-      <p>
-        blah
-      </p>
-      <p>
-        blah
-      </p>
-
-    </div>
-    <div class="gap gap-100">
-    </div>
-    <div class="content" id="done">
-      <a name="myAnchor3" id="bottompage">
-      </a>  
+    <div class="bottom" id="done">
       <section id="social-links">
         <div class='row'>
-          <div class="col-xs-2 col-md-2">
+          <div class="col-xs-1 col-md-1">
           </div>
           <div class="col-xs-2 col-md-2">
-            <a href='https://github.com/Joshua-Pearson' target="_blank"><i class='fa fa-github fa-5x'></i></a>
+            <a href='https://github.com/Joshua-Pearson' target="_blank"><i class='fa fa-github fa-4x black-icon-color'></i></a>
           </div>
           <div class="col-xs-2 col-md-2">
-            <a href='https://www.linkedin.com/in/joshuapears0n' target="_blank" ><i class='fa fa-linkedin fa-5x'></i></a>
+            <a href='https://www.linkedin.com/in/joshuapears0n' target="_blank" ><i class='fa fa-linkedin fa-4x black-icon-color'></i></a>
           </div>
           <div class="col-xs-2 col-md-2">
-            <a href='mailto:joshua.david.pearson@gmail.com' target="_blank"><i class='fa fa-envelope fa-5x'></i></a>
+            <a href='mailto:joshua.david.pearson@gmail.com' target="_blank"><i class='fa fa-envelope fa-4x black-icon-color'></i></a>
           </div>
           <div class="col-xs-2 col-md-2">
-            <a href='http://twitter.com/joshuapears0n' target="_blank"><i class='fa fa-twitter fa-5x'></i></a>
+            <a href='http://twitter.com/joshuapears0n' target="_blank"><i class='fa fa-twitter fa-4x black-icon-color'></i></a>
           </div>
           <div class="col-xs-2 col-md-2">
-            <a href='https://www.facebook.com/j0shuap' target="_blank"><i class='fa fa-facebook fa-5x'></i></a>
+            <a href='https://www.facebook.com/j0shuap' target="_blank"><i class='fa fa-facebook fa-4x black-icon-color'></i></a>
           </div>
         </div>
       </section>
-      <footer id="footer" class="inner">Copyright &copy; 2014 Joshua Pearson
-      </footer>
+      <footer id="copyright" class="inner">Copyright &copy; 2014 Joshua Pearson</footer>
+      <a name="footer" id="bottompage">
+      </a>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="skrollr.min.js"></script>
+    <script type="text/javascript" src="elementTransitions.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
