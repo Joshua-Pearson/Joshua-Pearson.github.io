@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+  setTimeout(function() {
+    $('.navigation').show("slow");
+  }, 6000);
+
+  setTimeout(function() {
+    $('#page1-name').show("slow");
+  }, 1000);
+
+  setTimeout(function() {
+    $("#page1-job").show("slow");
+  }, 1000);s
+
+
+
   $("a").mouseover(function() {
     $(this).addClass("animated pulse");
   }).mouseout(function() {
