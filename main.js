@@ -10,9 +10,7 @@ $(document).ready(function() {
 
   setTimeout(function() {
     $("#page1-job").show("slow");
-  }, 1000);s
-
-
+  }, 2000);
 
   $("a").mouseover(function() {
     $(this).addClass("animated pulse");
