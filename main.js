@@ -2,15 +2,15 @@ $(document).ready(function() {
 
   setTimeout(function() {
     $('.navigation').show("slow");
-  }, 6000);
+  }, 7000);
 
   setTimeout(function() {
     $('#page1-name').show("slow");
-  }, 1000);
+  }, 2000);
 
   setTimeout(function() {
     $("#page1-job").show("slow");
-  }, 2000);
+  }, 3000);
 
   $("a").mouseover(function() {
     $(this).addClass("animated pulse");
