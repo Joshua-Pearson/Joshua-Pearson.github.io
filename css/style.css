@@ -483,15 +483,17 @@ section.bl-expand .bl-icon-close {
 }
 
 #name {
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+  color: #f2ede3;
+  font-size: 0.9em;
+  font-weight: 300;
   position: absolute;
-  font-family: 'Cinzel', serif;
   margin: 0;
   text-align: center;
-  padding: 1em 0 0 0.9em;
+  padding: 0 0 0 0.5em;
   width: 100%;
   font-size: 4em;
   letter-spacing: 2px;
-  font-weight: 900;
   z-index: 99;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
