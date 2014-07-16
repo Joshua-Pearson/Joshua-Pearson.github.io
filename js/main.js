@@ -134,5 +134,14 @@ $(document).ready(function() {
   $(function() {
       Boxlayout.init();
     });
-  // $("#name").addClass("animated bounceInLeft");
+  $("#name").addClass("animated bounceInDown");
+
+  $("#job").addClass("animated bounceInUp");
+
+  $("a").mouseover(function() {
+    $(this).addClass("animated pulse");
+  }).mouseout(function() {
+    $(this).removeClass("animated pulse")
+  });
+
 });

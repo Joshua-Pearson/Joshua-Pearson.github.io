@@ -67,13 +67,13 @@ a:hover {
 .bl-main > section:nth-child(2) {
   top: 0;
   left: 50%;
-  background: #FA987D;
+  background: #4B0082;
 }
 
 .bl-main > section:nth-child(3) {
   top: 50%;
   left: 0;
-  background: #72CCA7;
+  background: #747D7D;
 }
 
 .bl-main > section:nth-child(4) {
@@ -196,6 +196,12 @@ div.bl-panel-items > div > div {
 
 .bl-content h2 {
   font-size: 3em;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.bl-content h3 {
+  font-size: 4em;
   font-weight: 300;
   margin: 0 0 20px 0;
 }
@@ -372,16 +378,42 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-  background: #EE4444;
+  background-image:url("../images/meinwater.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #F06060;
+  font-weight: 700;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .bl-main > section:nth-child(2).bl-expand {
-  background: #F98262;
+ /* background: #F98262;*/
+  background-image:url("../images/placeit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-weight: 900;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+#bl-work-section > div.bl-content > p:nth-child(4) > a {
+  color: #F98262;
+  font-weight: 700;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
 .bl-main > section:nth-child(3).bl-expand {
-  background: #4BBE8E;
+  /*background: #4BBE8E;*/
+  background: #747D7D;
+  font-weight: 700;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 .bl-main > section:nth-child(4).bl-expand {
-  background: #0D8278;
+  background-image:url("../images/sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #10A296;
+  font-weight: 700;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
@@ -452,19 +484,38 @@ section.bl-expand .bl-icon-close {
 
 #name {
   position: absolute;
+  font-family: 'Cinzel', serif;
   margin: 0;
   text-align: center;
-  padding: 1em 0 0 0.7em;
+  padding: 1em 0 0 0.9em;
   width: 100%;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: 2px;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 900;
   z-index: 99;
   text-shadow: black 0.1em 0.1em 0.2em;
-  border: 1px solid black;
 }
 
-.fa {
-  border: 1px solid black;
+.bl-main > section:first-child.bl-expand .fa {
+  color: #F06060;
 }
+#bl-main > section.bl-expand.bl-expand-top > div.bl-content > article > p > a {
+  color: white;
+  font-weight: 700;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+/*#job {
+  position: absolute;
+  font-family: 'Cinzel', serif;
+  margin: 0;
+  text-align: center;
+  padding: 0 0 50em 0.9em;
+  width: 100%;
+  font-size: 4em;
+  letter-spacing: 2px;
+  font-weight: 900;
+  z-index: 101;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  border: 1px solid black;
+}*/
