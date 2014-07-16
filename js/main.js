@@ -134,5 +134,5 @@ $(document).ready(function() {
   $(function() {
       Boxlayout.init();
     });
-  $("#name").addClass("animated bounceInLeft");
+  // $("#name").addClass("animated bounceInLeft");
 });
