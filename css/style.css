@@ -381,9 +381,9 @@ div.bl-panel-items > div.bl-hide-current-work {
   background-image:url("../images/meinwater.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: #F06060;
-  font-weight: 700;
-  text-shadow: black 0.1em 0.1em 0.2em;
+  color: #000;
+  font-weight: 900;
+  text-shadow: gray 0.1em 0.1em 0.2em;
 }
 .bl-main > section:nth-child(2).bl-expand {
  /* background: #F98262;*/
