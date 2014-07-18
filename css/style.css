@@ -521,3 +521,19 @@ section.bl-expand .bl-icon-close {
   z-index: 50;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
+
+#facepicture {
+  margin: 0 0 2em 0;
+  float: right;
+  max-width: 20%;
+  max-height: 45%;
+  width: 30%;
+  height: 30%;
+  border-radius: 3em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  /*background: url(http://link-to-your/image.jpg) no-repeat;*/
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}

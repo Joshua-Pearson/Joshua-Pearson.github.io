@@ -139,9 +139,14 @@ $(document).ready(function() {
   $("#job").addClass("animated bounceInUp");
 
   $("a").mouseover(function() {
-    $(this).addClass("animated pulse");
+    $(this).addClass("animated flipInX");
   }).mouseout(function() {
-    $(this).removeClass("animated pulse")
+    $(this).removeClass("animated flipInX")
   });
 
+  $("#facepicture").mouseover(function() {
+    $(this).addClass("animated bounce");
+  }).mouseout(function() {
+    $(this).removeClass("animated bounce")
+  });
 });
