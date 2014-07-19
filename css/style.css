@@ -488,7 +488,6 @@ section.bl-expand .bl-icon-close {
   color: #f2ede3;
   font-weight: 300;
   position: absolute;
-  margin: 0;
   text-align: center;
   padding: 0 0 0 0.5em;
   width: 100%;
@@ -513,7 +512,7 @@ section.bl-expand .bl-icon-close {
   font-size: 6vw;
   color: #f2ede3;
   font-weight: 300;
-  margin: 630px 0 0 0;
+  margin: 340px 0 0 0;
   width: 100%;
   letter-spacing: 2px;
   z-index: 50;
