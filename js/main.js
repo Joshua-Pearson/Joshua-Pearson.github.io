@@ -139,9 +139,9 @@ $(document).ready(function() {
   $("#job").addClass("animated bounceInUp");
 
   $("a").mouseover(function() {
-    $(this).addClass("animated flipInX");
+    $(this).addClass("animated pulse");
   }).mouseout(function() {
-    $(this).removeClass("animated flipInX")
+    $(this).removeClass("animated pulse")
   });
 
   $("#facepicture").mouseover(function() {

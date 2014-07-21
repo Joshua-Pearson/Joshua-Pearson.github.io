@@ -495,7 +495,6 @@ section.bl-expand .bl-icon-close {
   letter-spacing: 2px;
   z-index: 99;
   text-shadow: black 0.1em 0.1em 0.2em;
-  border: 1px solid black;
 }
 
 .bl-main > section:first-child.bl-expand .fa {
@@ -519,7 +518,6 @@ section.bl-expand .bl-icon-close {
   letter-spacing: 2px;
   z-index: 50;
   text-shadow: black 0.1em 0.1em 0.2em;
-  border: 1px solid black;`
 }
 
 #facepicture {
