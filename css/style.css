@@ -622,5 +622,13 @@ section.bl-expand .bl-icon-close {
   color: #98FB98;
 }
 
+#wrapper {
+  background-color: #000;
+  margin: 0 auto;
+  width: 100%;
+  overflow: inherit;
+}
+
+
 
 /*#main_body > table:nth-child(1) > tbody > tr > td > table > tbody > tr > td:nth-child(3) > div:nth-child(39) > table > tbody > tr:nth-child(1) > td:nth-child(2) > p*/
