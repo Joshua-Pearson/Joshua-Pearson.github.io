@@ -10,27 +10,27 @@
         
       .state('home', {
           url: '/home',
-          templateUrl: 'partials/home.html'
+          templateUrl: 'views/partials/home.html'
       })
         
       .state('about', {
           url: '/about',
-          templateUrl: 'partials/about.html'
+          templateUrl: 'views/partials/about.html'
       })
 
       .state('projects', {
         url: '/projects',
-        templateUrl: 'partials/projects.hmtl'
+        templateUrl: 'views/partials/projects.hmtl'
       })
 
       .state('blog', {
         url: '/blog',
-        templateUrl: 'partials/blog.html'
+        templateUrl: 'views/partials/blog.html'
       })
 
       .state('contact', {
         url: '/contact',
-        templateUrl: 'partials/contact.html'
+        templateUrl: 'views/partials/contact.html'
     });
   });
 })();
