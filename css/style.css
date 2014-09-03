@@ -626,9 +626,17 @@ section.bl-expand .bl-icon-close {
   background-color: #000;
   margin: 0 auto;
   width: 100%;
-  overflow: inherit;
+  height: 100%;
 }
 
+#aboutMe {
+  background-image:url("../images/meinwater.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-weight: 900;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
 
 
 /*#main_body > table:nth-child(1) > tbody > tr > td > table > tbody > tr > td:nth-child(3) > div:nth-child(39) > table > tbody > tr:nth-child(1) > td:nth-child(2) > p*/
