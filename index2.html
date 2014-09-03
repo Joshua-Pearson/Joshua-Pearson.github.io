@@ -14,15 +14,19 @@
     <link rel="stylesheet" type="text/css" href="font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
-    <script type="text/javascript" src="js/angularapp.js"></script>
     <script type="text/javascript" src="js/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="js/angularapp.js"></script>
   </head>
 
   <body ng-app="myApp">
     <div id="wrapper">
       {{1+9}}
       <div id="something">
+        <a ui-sref="home">Home Page</a>
         <a ui-sref="about">About Page</a>
+        <a ui-sref="contact">Contact Page</a>
+        <a ui-sref="blog">Blog</a>
+        <a ui-sref="projects">Projects</a>
       </div>
       <div ui-view></div>
     </div>
