@@ -1,5 +1,15 @@
-(function(app) {
-    document.addEventListener('DOMContentLoaded', function() {
-        ng.platformBrowserDynamic.platformBrowserDynamic().bootstrapModule(app.AppModule);
-    });
-})(window.app || (window.app = {}));
+Vue.component('todo-item', {
+  props: ['todo'],
+  template: '<li>{{ todo.text }}</li>'
+});
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    groceryList: [
+      { text: 'Vegetables' },
+      { text: 'Cheese' },
+      { text: 'Whatever else humans are supposed to eat' }
+    ]
+  }
+});
