@@ -21,10 +21,16 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
   box-sizing: border-box;
 }
 
+img.progress {
+    width: 40%;
+    position: relative;
+    left: 25%;
+}
+
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #f2ede3;
-    background: #333;
+    /*background: #333;*/
     font-size: 0.9em;
     font-weight: 300;
 }
